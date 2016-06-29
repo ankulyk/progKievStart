@@ -18,7 +18,7 @@ public class RangeWithStepPrinter {
         if (first <= last) {
             if ( step > 0) {
                 while (first <= last) {
-                    System.out.println(first);
+                    System.out.print(first);
                     first += step;
                 }
             } else {
@@ -28,7 +28,7 @@ public class RangeWithStepPrinter {
             if (first >= last) {
                 if (step < 0) {
                     while (first >= last) {
-                        System.out.println(first);
+                        System.out.print(first);
                         first += step;
                     }
                 } else {
