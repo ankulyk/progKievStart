@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class ToyNameToldConverter {
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
-
+        int idToy;
+        
         System.out.print("Enter toyName: ");
         String toyName = sc.nextLine();
-
-        int idToy;
 
         switch (toyName) {
             case "Car":
