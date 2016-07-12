@@ -13,7 +13,7 @@ public class IsAgeChecker {
         if (age => 1 && age <= 120) {
             System.out.println(isAge);
         } else {
-            System.out.println("");
+            System.out.println(!isAge);
         }
 
         sc.close();
