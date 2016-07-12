@@ -4,24 +4,25 @@ import java.util.Scanner;
 
 public class IdToToyNameConverter {
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
+        String toyName;
+        
         System.out.print("Enter idToy from 0 to 3: ");
         int idToy = sc.nextInt();
 
-        String getToyName;
-
         if (idToy == 0) {
-            getToyName = "Car";
+            toyName = "Car";
         } else if (idToy == 1) {
-            getToyName = "Lego";
+            toyName = "Lego";
         } else if (idToy == 2) {
-            getToyName = "Doll";
+            toyName = "Doll";
         } else if (idToy == 3) {
-            getToyName = "Puzzle";
+            toyName = "Puzzle";
         } else {
             throw new IllegalArgumentException("idToy arg must be in rang [0..3]");
         }
-        System.out.println("Toy: " + getToyName);
+        System.out.println("Toy: " + toyName);
         sc.close();
     }
 }
