@@ -4,7 +4,7 @@ public class IdentityMatrixChecker {
     public static void main(String[] args) {
 
         int n = 3;
-        int m = 4;
+        int m = 3;
         int[][] matrix = {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}};
         boolean result = isIdentity(matrix);
         System.out.println(result);
